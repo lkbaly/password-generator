@@ -1,6 +1,6 @@
 import random
 sim = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
-a = int(input("Введите длину пароля:"))
+a = int(input("Введите длину пароля:" \n))
 password = ""
 for i in range(a):
     y = random.randint(0,len(sim) - 1)
